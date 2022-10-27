@@ -8,6 +8,7 @@
   --main-silver: #757575;
   --white-transparent: rgba(255, 255, 255, 0.6);
   --border-white: #ececec;
+  --social-grey: #afb1b8;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -53,7 +54,7 @@ li {
 .link-header {
   color: var(--main-silver);
   text-decoration: none;
-  
+  display: flex;
 }
 .link-header:hover {
   color: var(--main-blue);
@@ -78,6 +79,7 @@ li {
   line-height: 1.36;
   margin-top: 0px;
   margin-bottom: 30px;
+  letter-spacing: 0.06em;
 }
 .button-agencja {
   color: var(--main-black);
@@ -141,6 +143,7 @@ li {
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 30px;
+  letter-spacing: 0.03em;
 }
 .figcaption-strong-studio {
   font-weight: 500;
@@ -196,7 +199,14 @@ li {
   padding-bottom: 94px;
 }
 .background-main-upper {
-  background-color: var(--background-grey);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url(../images/Tlo2-index-section1.jpg);
+  max-width: 1600px;
+  margin: auto;
+  padding: 0 15px;
 }
 .container {
   margin: 0 auto;
@@ -207,8 +217,6 @@ li {
 .main-upper {
   text-align: center;
   max-width: 696px;
-  align-items: center;
-  justify-content: center;
 }
 
 .header-box {
@@ -235,6 +243,7 @@ li {
 .second-list {
   display: flex;
   justify-content: space-between;
+  padding-left: 0px;
 
   gap: 50px;
 }
@@ -249,7 +258,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 300px;
+  padding-top: 94px;
 }
 .lorem-flex {
   display: flex;
@@ -275,7 +284,7 @@ li {
   margin-right: 30px;
 }
 .presentation-padding {
-  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .figure {
   margin-left: 0px;
@@ -339,4 +348,56 @@ li {
 }
 .footer-li-margin-bot {
   margin-bottom: 9px;
+}
+.icon {
+  text-decoration: none;
+  border-style: none;
+  background-color: var(--main-white);
+
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  fill: var(--main-silver);
+}
+.icon-svg:hover {
+  fill: var(--main-blue);
+
+  transition: all 0.4s;
+}
+.lorem-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+.social-links-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--social-grey);
+}
+/*.test3 {
+  fill: var(--main-blue);
+}*/
+.test4 {
+  border-radius: 4px;
+}
+svg:hover {
+  fill: #2196f3;
+
+  transition: all 0.2s;
 }
