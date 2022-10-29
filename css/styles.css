@@ -44,6 +44,7 @@ li {
 .link:hover {
   color: var(--main-blue);
   cursor: pointer;
+  transition: all 0.28s;
 }
 .link {
   color: var(--main-black);
@@ -60,6 +61,7 @@ li {
 .link-header:hover {
   color: var(--main-blue);
   cursor: pointer;
+  transition: all 0.28s;
 }
 .header-font {
   font-weight: 500;
@@ -99,6 +101,8 @@ li {
 .button-agencja:hover {
   background-color: var(--main-blue);
   color: var(--main-white);
+  cursor: pointer;
+  transition: all 0.28s;
 }
 .button {
   color: var(--main-black);
@@ -117,6 +121,8 @@ li {
 .button:hover {
   background-color: var(--main-blue);
   color: var(--main-white);
+  cursor: pointer;
+  transition: all 0.28s;
 }
 .h2-class {
   font-style: normal;
@@ -192,6 +198,7 @@ li {
 .link-footer:hover {
   color: var(--main-blue);
   cursor: pointer;
+  transition: all 0.28s;
 }
 
 .background-team {
@@ -345,6 +352,7 @@ li {
   cursor: pointer;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
+      transition: all 0.2s;
 }
 .image-width {
   width: 100%;
@@ -368,8 +376,8 @@ li {
 }
 .icon-svg:hover {
   fill: var(--main-blue);
-
-  transition: all 0.4s;
+  transition: all 0.28s;
+  cursor: pointer;
 }
 .lorem-icon {
   display: flex;
@@ -383,8 +391,8 @@ li {
 }
 .lorem-icon:hover {
   fill: var(--main-blue);
-
-  transition: all 0.2s;
+  transition: all 0.28s;
+  cursor: pointer;
 
 }
 .social-links {
@@ -415,7 +423,8 @@ li {
   border-radius: 50%;
   fill: var(--second-white);
   background: var(--main-blue);
-  transition: all 0.2s;
+  cursor: pointer;
+  transition: all 0.28s;
 }
 .section-padding {
   padding-block: 94px;
@@ -438,8 +447,9 @@ li {
 }
 .customers-logo:hover {
   fill: var(--main-blue);
-  transition: all 0.2s;
+  transition: all 0.28s;
   outline-color: var(--main-blue);
+  cursor: pointer;
 }
  
 .h4-class-footer {
