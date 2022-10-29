@@ -57,11 +57,13 @@ li {
   color: var(--main-silver);
   text-decoration: none;
   display: flex;
+  
 }
 .link-header:hover {
   color: var(--main-blue);
   cursor: pointer;
   transition: all 0.28s;
+  
 }
 .header-font {
   font-weight: 500;
@@ -138,10 +140,13 @@ li {
   margin-bottom: 0px;
   padding-bottom: 50px;
 }
-.h4-class {
+.h3-class {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 .text-lorem {
   color: var(--main-silver);
@@ -155,6 +160,7 @@ li {
   margin-bottom: 0;
   margin-right: 30px;
   letter-spacing: 0.03em;
+  margin-right: 0px;
 }
 .figcaption-strong-studio {
   font-weight: 500;
@@ -271,12 +277,16 @@ li {
   flex-direction: column;
   justify-content: center;
   padding-top: 94px;
+  padding-inline: 15;
 }
 .lorem-flex {
   display: flex;
   margin: inherit;
   align-items: center;
-  padding-left: 0;
+  justify-content: center;
+  gap: 30px;
+  padding-left: 0px;
+  
 }
 .lorem-height {
   height: 600px;
@@ -377,6 +387,8 @@ li {
   width: 16px;
   height: 16px;
   fill: var(--main-silver);
+  stroke: var(--main-silver);
+  color:#757575
 }
 .icon-svg:hover {
   fill: var(--main-blue);
@@ -387,18 +399,14 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--second-white);
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
+  
 }
-.lorem-icon:hover {
-  fill: var(--main-blue);
-  transition: all 0.28s;
-  cursor: pointer;
 
-}
 .social-links {
   display: flex;
   flex-direction: row;
