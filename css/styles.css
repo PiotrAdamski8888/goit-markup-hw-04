@@ -56,14 +56,15 @@ li {
 .link-header {
   color: var(--main-silver);
   text-decoration: none;
-  display: flex;
-  
 }
 .link-header:hover {
   color: var(--main-blue);
   cursor: pointer;
   transition: all 0.28s;
-  
+}
+.link-header:hover svg {
+  stroke: var(--main-blue);
+  fill: var(--main-blue);
 }
 .header-font {
   font-weight: 500;
@@ -277,7 +278,6 @@ li {
   flex-direction: column;
   justify-content: center;
   padding-top: 94px;
-  
 }
 .lorem-flex {
   display: flex;
@@ -286,7 +286,6 @@ li {
   justify-content: center;
   gap: 30px;
   padding-left: 0px;
-  
 }
 .lorem-height {
   height: 600px;
@@ -365,8 +364,8 @@ li {
 .figure-photo-portfolio:hover {
   cursor: pointer;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba(0, 0, 0, 0.16);
-      transition: all 0.2s;
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: all 0.2s;
 }
 .image-width {
   width: 100%;
@@ -382,13 +381,14 @@ li {
   text-decoration: none;
   border-style: none;
   background-color: var(--main-white);
+  vertical-align: text-bottom;
 
   margin-right: 10px;
   width: 16px;
   height: 16px;
   fill: var(--main-silver);
   stroke: var(--main-silver);
-  color:#757575
+  color: #757575;
 }
 .icon-svg:hover {
   fill: var(--main-blue);
@@ -404,7 +404,6 @@ li {
   height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
-  
 }
 
 .social-links {
@@ -427,8 +426,6 @@ li {
   fill: var(--main-blue);
 }*/
 
-
-
 .social-links-style:hover {
   width: 44px;
   height: 44px;
@@ -443,19 +440,19 @@ li {
 }
 .customers {
   display: flex;
-    flex-direction: row;
-        gap: 30px;
-        padding-left: 0;
-        margin-block: 0;
+  flex-direction: row;
+  gap: 30px;
+  padding-left: 0;
+  margin-block: 0;
 }
 .customers-logo {
   width: 170px;
-    height: 92px;
-    
-    border-radius: 4px;
-    fill: var(--social-grey);
-    border-radius: 4px;
-    outline: 1px solid var(--social-grey);
+  height: 92px;
+
+  border-radius: 4px;
+  fill: var(--social-grey);
+  border-radius: 4px;
+  outline: 1px solid var(--social-grey);
 }
 .customers-logo:hover {
   fill: var(--main-blue);
@@ -463,7 +460,7 @@ li {
   outline-color: var(--main-blue);
   cursor: pointer;
 }
- 
+
 .h4-class-footer {
   letter-spacing: 0.03em;
   color: var(--main-white);
@@ -473,13 +470,13 @@ li {
   padding-top: 72px;
   line-height: 16px;
   margin-top: 0px;
-padding-top: 72px;
-margin-bottom: 20px;
+  padding-top: 72px;
+  margin-bottom: 20px;
 }
 .joinus-footer {
   display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .flix {
   display: flex;
