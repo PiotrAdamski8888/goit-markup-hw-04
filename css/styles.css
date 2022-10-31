@@ -330,9 +330,7 @@ li {
   margin: 0;
   padding-left: 0;
 }
-.link-footer-padding {
-  padding-bottom: 60px;
-}
+
 .portfolio-buttons {
   display: flex;
   margin: inherit;
